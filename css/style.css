@@ -37,6 +37,11 @@ body {
   text-align: center;
 }
 
+.jumbotron{
+    margin: 2rem 1rem;
+    padding: 20px 0;   
+}
+
 li {
   display: inline-block;
   font-size: 1rem;
@@ -48,4 +53,13 @@ li {
 li span {
   display: block;
   font-size: 4.2rem;
+}
+.display-4{
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .display-4{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
 }
