@@ -380,6 +380,19 @@ $("document").ready(function () {
       .delay(3000)
       .promise()
       .done(function () {
+        // $("#gift").fadeIn("slow");
+        $("#picture_time").fadeIn("slow");
+      });
+  });
+
+  $("#gift").click(function () {
+    $("#card").fadeOut("slow");
+    $("#gift-time").fadeIn("slow");
+    $(this)
+      .fadeOut("slow")
+      .delay(50)
+      .promise()
+      .done(function () {
         $("#picture_time").fadeIn("slow");
       });
   });
