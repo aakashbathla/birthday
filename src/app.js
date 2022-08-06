@@ -12,7 +12,7 @@ const hour = minute * 60;
 const day = hour * 24;
 
 // set the exactly date & times where to subtract current times.
-let getDate = "Aug 08 2022 23:59:59";
+let getDate = "Aug 07 2022 23:59:59";
 // prompt('Enter the Date ex: Aug 20 2020 23:30:20');
 let userDate = new Date(getDate).getTime();
 
