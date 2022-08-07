@@ -22,7 +22,7 @@ $("document").ready(function () {
     $("#welcome_dance")[0].play();
     $(this)
       .fadeOut("slow")
-      .delay(18000)
+      .delay(5000)
       .promise()
       .done(function () {
         $("#turn_on").fadeIn("slow");
