@@ -647,7 +647,8 @@ body, html{
 	font-size:1em;
 }
 .third--canvas .center--line ul li{
-	list-style: number;
+	list-style-type: decimal;
+	
 }
 .third--canvas .center--line h1 > span{
 	position: relative;
