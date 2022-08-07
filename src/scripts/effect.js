@@ -74,7 +74,7 @@ $("document").ready(function () {
     $(".bannar").addClass("bannar-come");
     $(this)
       .fadeOut("slow")
-      .delay(5000)
+      .delay(50)
       .promise()
       .done(function () {
         $("#balloons_flying").fadeIn("slow");
