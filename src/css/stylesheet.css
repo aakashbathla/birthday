@@ -230,13 +230,15 @@ body {
 
 .center1 {
   display: block;
-  height: 300px;
-  left: 50%;
+  /* height: 300px; */
+  height: 100vh;
+  /* left: 50%;
   margin-top: -150px;
-  margin-left: -150px;
+  margin-left: -150px; */
   position: absolute;
-  top: 50%;
-  width: 300px;
+  /* top: 50%; */
+  /* width: 300px; */
+  width: 100%;
 }
 
 .bulb-glow-yellow {
@@ -1719,9 +1721,9 @@ o @keyframes bannar_come {
     width: 30%;
   }
   .cake_class {
-    width: 18% !important;
-    left: 40% !important;
-    top: 66% !important;
+    width: 25% !important;
+    left: 38% !important;
+    top: 65% !important;
   }
 }
 

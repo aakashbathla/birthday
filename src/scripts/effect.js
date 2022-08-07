@@ -18,9 +18,11 @@ $("document").ready(function () {
   });
 
   $("#initial").click(function () {
+    console.log($("#welcome_dance"));
+    $("#welcome_dance")[0].play();
     $(this)
       .fadeOut("slow")
-      .delay(50)
+      .delay(18000)
       .promise()
       .done(function () {
         $("#turn_on").fadeIn("slow");
@@ -157,6 +159,7 @@ $("document").ready(function () {
   });
 
   $("#invite_friends").click(function () {
+    $("#banner").fadeOut("slow");
     var vw;
     var mid;
     var mid_diff;
